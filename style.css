@@ -1,0 +1,71 @@
+
+body{
+    background-color: gainsboro;
+}
+
+/* Navigation bar  */
+nav h1{
+    color:blue;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: center;
+}
+
+.nav__list {
+    width: 100%;
+    margin: 0;
+}
+
+.nav__item {
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid #222;
+    list-style-type: none
+}
+
+.nav__item:last-of-type {
+    border-bottom: none;
+  }
+
+.nav__item>a {
+    color: #000;
+    transition: color 0.3s;
+    text-decoration: none
+}
+
+.nav__item>a:hover {
+    color:blue;
+}
+
+.nav__toggler {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.nav.collapsible--expanded .nav__toggler {
+    opacity: 1;
+}
+
+.nav__brand {
+    transform: translateY(5px);
+    width: 150px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .nav__toggler {
+      display: none;
+    }
+    .nav__list {
+      width: auto;
+      display: flex;
+      font-size: 1.6rem;
+      max-height: 100%;
+      opacity: 1;
+    }
+    .nav__item {
+      border: 0;
+    }
+  }
