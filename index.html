@@ -7,8 +7,102 @@
     <title>Car-rent</title>
 </head>
 <body>
+    <nav class="nav collapsible">
+        <h1>Car-rent</h1>
+        <svg class="icon icon--white nav__toggler">
+            <use href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+            <li class="nav__item"><a href="#">Home</a></li>
+            <li class="nav__item"><a href="#">Explore cars</a></li>
+            <li class="nav__item"><a href="#">About us</a></li>
+            <li class="nav__item"><a href="#">Sign up</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="container grid">
+            <header class="hero_heading">
+                <h1>Experience your dreamcar</h1>
+                <p>Scratch the itch of owning that car you've always dreamed of!</p>
+            </header>
+            <img class="hero" src="images/iris-4.jpeg" alt="hero">
+        </div>
+        <div class="input-container">
+            <form>
+                <div class="form-box">
+                    <input type="text" class="input-item" placeholder="Brand, Model, Year etc">
+                    <input type="text" class="input-item" placeholder="Location">
+                    <input type="text" class="input-item" placeholder="Length of rent">
+                    <button class="search-btn">Search</button>
+                </div>
+            </form>
+        </div>
+    </section>
 
 
+
+    <div class="cars">
+
+        <div class="box-container">
+
+            <div class="box">
+                <img class="box-image" src="images/1740759.jpg" alt="car">
+        
+                <h3>Mercedes_benz G63</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h5>549 $ /month</h5>
+                <button class="btn">Rent</button>
+            </div>
+
+            <div class="box">
+                <img class="box-image" src="images/2022-audi-rs-e-tron-gt-0-1024x555.jpg" alt="car">
+
+                <h3>Audi e-Tron GT</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h5>499 $ /month</h5>
+                <button class="btn">Rent</button>
+            </div>
+
+            <div class="box">
+                <img class="box-image"  src="images/7082c1f086aa4524a887d5014115b159.jpg" alt="car">
+        
+                <h3>Audi RSQ8</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h5>599 $ /month</h5>
+                <button class="btn">Rent</button>
+            </div>
+
+            <div class="box">
+                <img class="box-image" src="images/iris-2.jpeg" alt="car">
+          
+                <h3>Porsche Cayenne Turbo S</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h5>599 $ /month</h5>
+                <button class="btn">Rent</button>
+            </div>
+
+            <div class="box">
+               <img class="box-image" src="images/iris-3.jpeg" alt="car">
+              
+                <h3>Porsche Panamera</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h5>549 $ /month</h5>
+                <button class="btn">Rent</button>
+            </div>
+
+            <div class="box">
+                <img class="box-image" src="images/iris.jpeg" alt="car">
+          
+                <h3>Porsche GT3</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h5>629 $ /month</h5>
+                <button class="btn">Rent</button>
+            </div>
+
+        </div>
+
+    </div>
 
     <script src="app.js"></script>
 </body>
