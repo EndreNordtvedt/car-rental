@@ -186,3 +186,28 @@ input-container{
   cursor: pointer;
 }
 
+/* footer */
+footer{
+  background-color: rgb(182, 182, 182);
+}
+.footer-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-content{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+.footer-content li{
+  list-style: none;
+  padding: 1rem 0;
+}
+footer h1{
+  color: #007BFF;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
