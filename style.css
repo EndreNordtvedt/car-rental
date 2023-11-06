@@ -241,6 +241,9 @@ h3, p {
 }
 
 /*Callout*/
+.callout{
+  margin: 0;
+}
 .callout-content{
   background-color: #007BFF;
   height: 40vh;
